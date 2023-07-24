@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * _isalpha - shows 1 if the input is a
  *  Letter another case, shows 0
