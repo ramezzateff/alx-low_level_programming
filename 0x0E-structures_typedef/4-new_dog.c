@@ -33,7 +33,7 @@ char *_strcpy(char *s1, char *s2)
 
 	len1 = _strlen(s1);
 
-	for (i = 0; s1[i] < len1; i++)
+	for (i = 0; i < len1; i++)
 		s1[i] = s2[i];
 	s2[len1] = '\0';
 	return (s2);
