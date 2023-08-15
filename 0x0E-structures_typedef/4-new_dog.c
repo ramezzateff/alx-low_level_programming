@@ -33,7 +33,7 @@ char *_strcpy(char *s1, char *s2)
 
 	len1 = _strlen(s1);
 
-	for (i = 0; i < len1; i++)
+	for (i = 0; s1[i] != '\0'; i++)
 		s1[i] = s2[i];
 	s2[len1] = '\0';
 	return (s2);
@@ -72,8 +72,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(my_dog);
 		return (NULL);
 	}
-	_strcpy(name, my_dog->name);
-	_strcpy(owner, my_dog->owner);
+	_strcpy(my_dog->name, name);
+	_strcpy(my_dog->owner, owner);
 	my_dog->age = age;
 	return (my_dog);
 }
