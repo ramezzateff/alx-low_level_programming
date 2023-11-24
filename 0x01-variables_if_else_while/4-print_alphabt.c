@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char exp = 'e', exp2 = 'q', ch;;
+	char exp = 'e', exp2 = 'q', ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
