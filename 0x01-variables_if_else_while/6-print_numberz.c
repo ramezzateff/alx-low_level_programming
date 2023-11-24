@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-       int num;
-       char num2;
+	int num;
+	char num2;
 
 	for (num = 0; num < 10; num++)
 	{
@@ -15,5 +15,5 @@ int main(void)
 		putchar(num2);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
