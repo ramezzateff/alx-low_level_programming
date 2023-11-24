@@ -8,9 +8,9 @@ int main(void)
 {
 	int hex;
 	char ch;
-	
+
 	for (hex = 0; hex < 10; hex++)
-		putchar(hex + '0');	
+		putchar(hex + '0');
 	for (ch = 'a'; ch <= 'f'; ch++)
 	{
 		putchar(ch);
