@@ -7,12 +7,10 @@
 int main(void)
 {
 	int num;
-	char num2;
 
 	for (num = 0; num < 10; num++)
 	{
-		num2 = num + '0';
-		putchar(num2);
+		putchar(num + '0');
 	}
 	putchar('\n');
 	return (0);
