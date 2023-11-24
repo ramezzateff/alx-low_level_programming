@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	char exp = 'e', exp2 = 'q';
+	char exp = 'e', exp2 = 'q', ch;;
 
-	for (char ch = 'a'; ch <= 'z'; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		if (ch == exp || ch == exp2)
 			continue;
